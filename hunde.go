@@ -5,5 +5,5 @@ import (
 )
 
 func WhenGrownUp(st string) string {
-	return "When the puppy grows up it says: " + strings.ToUpper(st)
+	return "When the puppy grows up it says: " + strings.ToLower(st)
 }
